@@ -1,0 +1,37 @@
+html {
+    background-color: bisque;
+}
+.content_title {
+    text-align: center;
+}
+
+.item_list_title {
+    text-align: center;
+}
+
+table {
+    margin: auto;
+}
+
+.item_list_content {
+    border: solid black 1px;
+}
+
+.item_list_content th{
+    border: solid black 1px;
+}
+
+.item_list_content td{
+    border: solid black 1px;
+}
+
+.pay_input select option{
+    text-align: center;
+}
+
+.buy_dates td input {
+    width: 10px;
+}
+.item_list_content tr td p,input{
+    margin: 10px;
+}
