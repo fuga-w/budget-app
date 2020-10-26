@@ -120,7 +120,7 @@ Reactにおいても(サンプルコードを見る限り)ほとんどの関数�
 (param1, param2, …, paramN) => { statements }
 
 //例
-const sum => (a, b, c) {
+const sum = (a, b, c) => {
     return a + b + c
 }
 
@@ -128,7 +128,7 @@ const sum => (a, b, c) {
 singleParam => { statements }
 
 //例
-const print => str {
+const print = str => {
     console.log(str)
 }
 
@@ -136,7 +136,7 @@ const print => str {
 () => { statements }
 
 //例
-const hello => () {
+const hello = () => {
     console.log(''hello)
 }
 
