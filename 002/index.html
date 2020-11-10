@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <link href="index.css" rel="stylesheet" media="all">
+        <title>予算管理アプリ</title>
+    </head>
+    <body>
+        <h1 class="content_title">予算管理表</h1>
+        <section class="register_form">
+            <table>
+                <tr>
+                    <th rowspan="2">支払い方法</th>
+                    <th colspan="3">購入日</th>
+                    <th rowspan="2">項目</th>
+                    <th rowspan="2">品名</th>
+                    <th rowspan="2">金額</th>
+                    <th rowspan="2">備考</th>
+                </tr>
+                <tr>
+                    <th>年</th>
+                    <th>月</th>
+                    <th>日</th>
+                </tr>
+                <tr>
+                    <td class="pay_input">
+                        <select name="pay">
+                            <option value="" selected></option>
+                            <option value="cash">現金</option>
+                            <option value="card">クレジットカード</option>
+                        </select>
+                    </td>
+                    <div　class="buy_dates">
+                        <td>
+                            <select name="year">
+                                <option value="" selected></option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                            </select>
+                        </td>
+                    </div>
+                    <td>
+                        <select name="month">
+                            <option value="" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select name="day">
+                            <option value="" selected></option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                            <option value="21">21</option>
+                            <option value="22">22</option>
+                            <option value="23">23</option>
+                            <option value="24">24</option>
+                            <option value="25">25</option>
+                            <option value="26">26</option>
+                            <option value="27">27</option>
+                            <option value="28">28</option>
+                            <option value="29">29</option>
+                            <option value="30">30</option>
+                            <option value="31">31</option>
+                        </select>
+                    </td>
+                    <td>
+                        <select>
+                            <option value="" selected></option>
+                            <option value="gear">電子機器</option>
+                            <option value="book">書籍</option>
+                            <option value="Seminar">セミナー</option>
+                        </select>
+                    </td>
+                    <td><input></td>
+                    <td><input></td>
+                    <td><input></td>
+                    <td><button>登録</button></td>
+                </tr>
+            </table>
+        </section>
+        <section class="item_list">
+            <h1 class="item_list_title">30期予算使用状況</h1>
+            <table class="item_list_content">
+                <tr>
+                    <th>No.</th>
+                    <th>支払い方法</th>
+                    <th>購入日</th>
+                    <th>項目</th>
+                    <th>品名</th>
+                    <th>金額</th>
+                    <th>受領</th>
+                    <th>備考</th>
+                </tr>
+                <tr>
+                    <td><p>1</p></td>
+                    <td><p>現金</p></td>
+                    <td><p>2020/10/15</p></td>
+                    <td><p>電子機器</p></td>
+                    <td><p>Raspberry Pi 4</p></td>
+                    <td><p>6000</p></td>
+                    <td><input type="checkbox" name="received"></td>
+                    <td><p>SDカードも買うこと</p></td>
+                </tr>
+                <tr>
+                    <td><p>2</p></td>
+                    <td><p>クレジットカード</p></td>
+                    <td><p>2020/10/22</p></td>
+                    <td><p>書籍</p></td>
+                    <td><p>深層学習</p></td>
+                    <td><p>5800</p></td>
+                    <td><input type="checkbox" name="received"></td>
+                    <td><p></p></td>
+                </tr>
+                <tr>
+                    <td><p>3</p></td>
+                    <td><p>クレジットカード</p></td>
+                    <td><p>2020/10/30</p></td>
+                    <td><p>セミナー</p></td>
+                    <td><p>現場で使える異常検知</p></td>
+                    <td><p>100000</p></td>
+                    <td><input type="checkbox" name="received"></td>
+                    <td><p></p></td>
+                </tr>
+            </table>
+        </section>
+    </body>
+</html>
